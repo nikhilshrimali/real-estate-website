@@ -238,18 +238,19 @@
   width: 50%;
   float: left;
   padding-top: 10px;
+  padding-left: 20px;
   font-size: 32px;
   color: #fff;
   font-weight: bold;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 36, ../scss/_header.scss */
+/* line 37, ../scss/_header.scss */
 .pg-hdr-logo h1 {
   font-weight: normal;
   font-size: 28px;
 }
 
-/* line 42, ../scss/_header.scss */
+/* line 43, ../scss/_header.scss */
 .pg-hdr-menu {
   float: right;
   right: 10px;
@@ -257,15 +258,14 @@
   font-size: 18px;
   line-height: 50px;
 }
-/* line 48, ../scss/_header.scss */
+/* line 49, ../scss/_header.scss */
 .pg-hdr-menu .pg-hdr-menu-ul {
   list-style-type: none;
   color: #fff;
 }
-/* line 52, ../scss/_header.scss */
+/* line 53, ../scss/_header.scss */
 .pg-hdr-menu li {
   display: inline-block;
-  padding: 0 10px;
   transition: all .3s ease;
 }
 /* line 57, ../scss/_header.scss */
@@ -274,12 +274,20 @@
   cursor: pointer;
 }
 /* line 61, ../scss/_header.scss */
+.pg-hdr-menu li:hover a {
+  cursor: pointer;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+/* line 66, ../scss/_header.scss */
 .pg-hdr-menu a {
   text-decoration: none;
   color: #fff;
+  height: 100%;
+  padding: 0 10px;
 }
 
-/* line 68, ../scss/_header.scss */
+/* line 75, ../scss/_header.scss */
 .pg-hdr-tght {
   width: 50%;
   height: 50%;
@@ -294,12 +302,12 @@
 }
 
 @media screen and (max-width: 767px) {
-  /* line 86, ../scss/_header.scss */
+  /* line 93, ../scss/_header.scss */
   .pg-hdr {
     background-color: #343423;
   }
 
-  /* line 89, ../scss/_header.scss */
+  /* line 96, ../scss/_header.scss */
   .pg-hdr-logo {
     width: 100%;
     padding-top: 0;
@@ -311,7 +319,7 @@
     border-bottom-color: rgba(0, 0, 0, 0.4);
   }
 
-  /* line 99, ../scss/_header.scss */
+  /* line 106, ../scss/_header.scss */
   .pg-hdr-menu {
     width: 100%;
     text-align: center;
