@@ -2,24 +2,14 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 2, ../scss/_grid.scss */
-*:not(body):not(html) {
-  border: 1px dashed #333;
-}
-
-/* line 6, ../scss/_grid.scss */
-*, *:after, *:before {
-  box-sizing: border-box;
-}
-
-/* line 10, ../scss/_grid.scss */
+/* line 1, ../scss/_grid.scss */
 .row {
   width: 100%;
   display: block;
   clear: both;
   float: left;
 }
-/* line 15, ../scss/_grid.scss */
+/* line 6, ../scss/_grid.scss */
 .row:after {
   content: '';
   display: block;
@@ -28,191 +18,310 @@
   clear: both;
 }
 
-/* line 25, ../scss/_grid.scss */
+/* line 16, ../scss/_grid.scss */
 .column {
   min-height: 100px;
   float: left;
 }
 
-/* line 30, ../scss/_grid.scss */
+/* line 21, ../scss/_grid.scss */
 .column.large-1 {
   width: 8.33333%;
 }
 
-/* line 34, ../scss/_grid.scss */
+/* line 25, ../scss/_grid.scss */
 .column.large-2 {
   width: 16.66667%;
 }
 
-/* line 37, ../scss/_grid.scss */
+/* line 28, ../scss/_grid.scss */
 .column.large-3 {
   width: 25%;
 }
 
-/* line 40, ../scss/_grid.scss */
+/* line 31, ../scss/_grid.scss */
 .column.large-4 {
   width: 33.33333%;
 }
 
-/* line 43, ../scss/_grid.scss */
+/* line 34, ../scss/_grid.scss */
 .column.large-5 {
   width: 41.66667%;
 }
 
-/* line 46, ../scss/_grid.scss */
+/* line 37, ../scss/_grid.scss */
 .column.large-6 {
   width: 50%;
 }
 
-/* line 49, ../scss/_grid.scss */
+/* line 40, ../scss/_grid.scss */
 .column.large-7 {
   width: 58.33333%;
 }
 
-/* line 52, ../scss/_grid.scss */
+/* line 43, ../scss/_grid.scss */
 .column.large-8 {
   width: 66.66667%;
 }
 
-/* line 55, ../scss/_grid.scss */
+/* line 46, ../scss/_grid.scss */
 .column.large-9 {
   width: 75%;
 }
 
-/* line 58, ../scss/_grid.scss */
+/* line 49, ../scss/_grid.scss */
 .column.large-10 {
   width: 83.33333%;
 }
 
-/* line 61, ../scss/_grid.scss */
+/* line 52, ../scss/_grid.scss */
 .column.large-11 {
   width: 91.66667%;
 }
 
-/* line 64, ../scss/_grid.scss */
+/* line 55, ../scss/_grid.scss */
 .column.large-12 {
   width: 100%;
 }
 
 @media screen and (max-width: 320px) {
-  /* line 69, ../scss/_grid.scss */
+  /* line 60, ../scss/_grid.scss */
   .column.small-1 {
     width: 8.33333%;
   }
 
-  /* line 72, ../scss/_grid.scss */
+  /* line 63, ../scss/_grid.scss */
   .column.small-2 {
     width: 16.66667%;
   }
 
-  /* line 75, ../scss/_grid.scss */
+  /* line 66, ../scss/_grid.scss */
   .column.small-3 {
     width: 25%;
   }
 
-  /* line 78, ../scss/_grid.scss */
+  /* line 69, ../scss/_grid.scss */
   .column.small-4 {
     width: 33.33333%;
   }
 
-  /* line 81, ../scss/_grid.scss */
+  /* line 72, ../scss/_grid.scss */
   .column.small-5 {
     width: 41.66667%;
   }
 
-  /* line 84, ../scss/_grid.scss */
+  /* line 75, ../scss/_grid.scss */
   .column.small-6 {
     width: 50%;
   }
 
-  /* line 87, ../scss/_grid.scss */
+  /* line 78, ../scss/_grid.scss */
   .column.small-7 {
     width: 58.33333%;
   }
 
-  /* line 90, ../scss/_grid.scss */
+  /* line 81, ../scss/_grid.scss */
   .column.small-8 {
     width: 66.66667%;
   }
 
-  /* line 93, ../scss/_grid.scss */
+  /* line 84, ../scss/_grid.scss */
   .column.small-9 {
     width: 75%;
   }
 
-  /* line 96, ../scss/_grid.scss */
+  /* line 87, ../scss/_grid.scss */
   .column.small-10 {
     width: 83.33333%;
   }
 
-  /* line 99, ../scss/_grid.scss */
+  /* line 90, ../scss/_grid.scss */
   .column.small-11 {
     width: 91.66667%;
   }
 
-  /* line 102, ../scss/_grid.scss */
+  /* line 93, ../scss/_grid.scss */
   .column.small-12 {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 110, ../scss/_grid.scss */
+  /* line 101, ../scss/_grid.scss */
   .column.medium-1 {
     width: 8.33333%;
   }
 
-  /* line 113, ../scss/_grid.scss */
+  /* line 104, ../scss/_grid.scss */
   .column.medium-2 {
     width: 16.66667%;
   }
 
-  /* line 116, ../scss/_grid.scss */
+  /* line 107, ../scss/_grid.scss */
   .column.medium-3 {
     width: 25%;
   }
 
-  /* line 119, ../scss/_grid.scss */
+  /* line 110, ../scss/_grid.scss */
   .column.medium-4 {
     width: 33.33333%;
   }
 
-  /* line 122, ../scss/_grid.scss */
+  /* line 113, ../scss/_grid.scss */
   .column.medium-5 {
     width: 41.66667%;
   }
 
-  /* line 125, ../scss/_grid.scss */
+  /* line 116, ../scss/_grid.scss */
   .column.medium-6 {
     width: 50%;
   }
 
-  /* line 128, ../scss/_grid.scss */
+  /* line 119, ../scss/_grid.scss */
   .column.medium-7 {
     width: 58.33333%;
   }
 
-  /* line 131, ../scss/_grid.scss */
+  /* line 122, ../scss/_grid.scss */
   .column.medium-8 {
     width: 66.66667%;
   }
 
-  /* line 134, ../scss/_grid.scss */
+  /* line 125, ../scss/_grid.scss */
   .column.medium-9 {
     width: 75%;
   }
 
-  /* line 137, ../scss/_grid.scss */
+  /* line 128, ../scss/_grid.scss */
   .column.medium-10 {
     width: 83.33333%;
   }
 
-  /* line 140, ../scss/_grid.scss */
+  /* line 131, ../scss/_grid.scss */
   .column.medium-11 {
     width: 91.66667%;
   }
 
-  /* line 143, ../scss/_grid.scss */
+  /* line 134, ../scss/_grid.scss */
   .column.medium-12 {
     width: 100%;
   }
+}
+/* line 5, ../scss/_header.scss */
+.pg-hdr {
+  width: 100%;
+  height: 90%;
+  background: url("../images/bg_main.jpg");
+  display: block;
+  font-family: "lucido" sans-serif;
+}
+
+/* line 13, ../scss/_header.scss */
+.pg-hdr-tint {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 29, 41, 0.79);
+}
+
+/* line 19, ../scss/_header.scss */
+.pg-hdr-nav {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+}
+
+/* line 28, ../scss/_header.scss */
+.pg-hdr-logo {
+  width: 50%;
+  float: left;
+  padding-top: 10px;
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+/* line 36, ../scss/_header.scss */
+.pg-hdr-logo h1 {
+  font-weight: normal;
+  font-size: 28px;
+}
+
+/* line 42, ../scss/_header.scss */
+.pg-hdr-menu {
+  float: right;
+  right: 10px;
+  padding-right: 20px;
+  font-size: 18px;
+  line-height: 50px;
+}
+/* line 48, ../scss/_header.scss */
+.pg-hdr-menu .pg-hdr-menu-ul {
+  list-style-type: none;
+  color: #fff;
+}
+/* line 52, ../scss/_header.scss */
+.pg-hdr-menu li {
+  display: inline-block;
+  padding: 0 10px;
+  transition: all .3s ease;
+}
+/* line 57, ../scss/_header.scss */
+.pg-hdr-menu li:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+/* line 61, ../scss/_header.scss */
+.pg-hdr-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 68, ../scss/_header.scss */
+.pg-hdr-tght {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+  font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 86, ../scss/_header.scss */
+  .pg-hdr {
+    background-color: #343423;
+  }
+
+  /* line 89, ../scss/_header.scss */
+  .pg-hdr-logo {
+    width: 100%;
+    padding-top: 0;
+    float: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #333;
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+  }
+
+  /* line 99, ../scss/_header.scss */
+  .pg-hdr-menu {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+/* line 1, ../scss/_reset.scss */
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
