@@ -2,7 +2,6 @@
     width:100%;
     display:block;
     clear:both;
-    float:left;
     &:after {
         content:'';
         display:block;
@@ -20,7 +19,6 @@
 .column.large-1 {
     width: (100% /12) * 1;
 }
-
 .column.large-2 {
     width: (100% /12 ) * 2;
 }
@@ -54,6 +52,7 @@
 .column.large-12 {
     width: (100% /12) * 12;
 }
+
 
 @media screen and (max-width: 320px){
     .column.small-1 {
@@ -96,7 +95,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .column.medium-1 {
         width: (100% /12) * 1;
     }
